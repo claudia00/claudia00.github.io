@@ -6,7 +6,7 @@
 	text-align: center;
 	background-image:url("https://66.media.tumblr.com/bd3823029d30fe22205a30add5f2d5f3/tumblr_inline_pmmxc3fxyT1vdozho_1280.png");
 	color: white;
-	font-size: 55px;
+	font-size: 40px;
 }
 .navbar {
 	display:flex;
@@ -52,7 +52,7 @@
 .words{
 	background-color: #e60000;
 	width:100%;
-	padding: 20px;
+	padding: 15px;
 	color: white;
 
 }

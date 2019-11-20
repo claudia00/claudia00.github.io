@@ -1,14 +1,17 @@
  a{
+	background-color: red; 
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
-}
-a:hover{
-	color: #00ff11;
+  display: inline-block;
+  font-size: 16px;
 }
 div.gallery {
 	width: 180px;
 	float: center;
-	margin: 5px;
+	margin: 10px;
 	padding-left: 40%;
 
 
@@ -18,10 +21,11 @@ div.gallery img{
 	height: auto;
 }
 
-div.desc{
-	padding: 3px;
+ div.desc a{
+	padding: 35px;
 	text-align: center;
-}
+	color:white;
+	}
 
 .header{
 	padding: 40px;
