@@ -4,7 +4,7 @@
 .header{
 	padding: 40px;
 	text-align: center;
-	background-image:url("https://66.media.tumblr.com/bd3823029d30fe22205a30add5f2d5f3/tumblr_inline_pmmxc3fxyT1vdozho_1280.png");
+	background-image:url("stainglasskh.jpg");
 	color: white;
 	font-size: 40px;
 }
@@ -24,42 +24,6 @@
 	background-color: #ddd;
 	color:black;
 }
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
 
 .row{
 	display: flex;
@@ -84,8 +48,10 @@
 }
 .highlight{
 	background-color: #aaa;
-	width:100%;
+	width: 100%;
 	padding: 20px;
+	
+
 }
 .words{
 	background-color: #e60000;
