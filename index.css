@@ -1,0 +1,107 @@
+*{
+	box-sizing: border-box;
+}
+div{
+	display: block;
+}
+.profilePicture img{
+	border-radius: 80%;
+	width:80%;
+	height:auto;
+	margin: 10%
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.side{
+	flex: 20%;
+	background-color: #a83238;
+	padding-top: 10%;
+	color:white;
+
+}
+.main{
+	flex: 80%;
+	background-color: white;
+	padding: 40px;
+}
+.about{
+	font-family: 'Playfair Display', serif;
+	margin-left:1.66%;
+}
+.Name h1{
+	font-size:60px;
+	font-weight: 500;
+	color:#B6290A;
+	
+}
+.email{
+	font-size: 15px;
+}
+
+.Icons {
+	position: relative;
+	width:50%;
+	display: inline-flex;
+  
+}
+.Icons .imageIcon{
+	border-style: groove;
+	display: inline-flex;
+	align-items:center;
+	justify-content: center;
+	height: 9rem;
+	width: 9rem;
+	margin: 0.5%;
+	
+}
+.imageIcon:hover{
+	opacity: 0.3;
+}
+
+.sideMenu{
+	margin-top:30%;
+	margin-left:20%;
+
+}
+.dividers{
+width: 20%;
+height:20%;
+}
+.description{
+	margin-top: 60px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.intro{
+	padding: 100px 100px 100px 10px;
+}
+
+.Icons2 {
+	position: relative;
+	width:50%;
+	display: inline-flex;
+  
+}
+.Icons2 .imageIcon2{
+	border-style: groove;
+	display: inline-flex;
+	align-items:center;
+	justify-content: center;
+	height: 9rem;
+	width: 9rem;
+	margin: 0.5%;
+	
+}
+.imageIcon2:hover{
+	opacity: 0.3;
+}
+.title p{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
