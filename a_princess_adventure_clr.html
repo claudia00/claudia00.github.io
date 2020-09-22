@@ -81,6 +81,7 @@ ITM 4 13,9
 ITM b 12,5
 EXT 15,9 1 0,8
 EXT 15,9 1 0,8
+EXT 3,3 4 7,6
 PAL 0
 
 ROOM 1
@@ -198,7 +199,7 @@ ROOM 4
 0,0,0,0,1c,0,0,0,0,0,0,0,0,0,1c,0
 NAME judgmentRoom
 EXT 8,6 d 3,3
-EXT 7,6 d 3,3
+EXT 7,6 0 3,3
 END w 6,8
 END w 9,8
 END w 7,9
@@ -2976,7 +2977,7 @@ NAME wing1 dialog
 DLG w
 """
 {
-  - weapon == 3 ?
+  - weapon >= 3 ?
     You came {clr1}prepared{clr1}, yet leaving a doom kingdom with a coward heart
     {end}
 }{
@@ -3038,7 +3039,7 @@ NAME exit narration 1
 DLG 1h
 """
 {
-  - weapon == 3 ?
+  - weapon >= 3 ?
     {property locked false}
     I got all the weapons I am ready!
   - else ?
