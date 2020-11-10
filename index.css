@@ -1,11 +1,13 @@
 .red{
-	background: red;
+	background: #ab2218;
 }
 .profilePicture img{
 	border-radius: 80%;
-	width:80%;
+	width:40%;
 	height:auto;
-	margin: 10%
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 .Icons {
 	position: relative;
@@ -48,16 +50,18 @@
 }
 .rightSection{
 	padding: 50px;
-	background: gray;
-	color:white;
+	background: #dedcdc;
+	color:black;
 }
 .about{
 	font-family: 'Playfair Display', serif;
 	padding: 50px;
-	background: gray;
-	color:white;
+	background: #dedcdc;
+	color:black;
+
 }
 .text-center{
+	
 	color:white;
 	font-size: 20px;
 }
