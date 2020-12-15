@@ -39,7 +39,9 @@
 	justify-content: center;
 	height: 9rem;
 	width: 9rem;
-	margin: 0.5%;
+	margin: .5%;
+	margin-right:50px;
+
 }
 .imageIcon2:hover{
 	opacity: 0.3;
@@ -47,21 +49,29 @@
 .title p{
 	font-size: 20px;
 	font-weight: bold;
+
 }
 .rightSection{
 	padding: 50px;
-	background: #dedcdc;
-	color:black;
+	background: #336da3;
+	color:white;
+	
+
 }
 .about{
 	font-family: 'Playfair Display', serif;
 	padding: 50px;
 	background: #dedcdc;
 	color:black;
-
 }
 .text-center{
-	
 	color:white;
-	font-size: 20px;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+}
+
+.wordBig {
+	font-family: 'Playfair Display', serif;
+	color:white;
+	font-size: 50px;
 }
