@@ -1,0 +1,38 @@
+ a{
+	background-color: red; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+div.gallery {
+	width: 180px;
+	float: center;
+	margin: 10px;
+	padding-left: 40%;
+
+
+}
+div.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+ div.desc a{
+	padding: 35px;
+	text-align: center;
+	color:white;
+	}
+
+.header{
+	padding: 40px;
+	text-align: center;
+	background-image:url("https://66.media.tumblr.com/bd3823029d30fe22205a30add5f2d5f3/tumblr_inline_pmmxc3fxyT1vdozho_1280.png");
+	color: white;
+	font-size: 25px;
+}
+
+
