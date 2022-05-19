@@ -2,8 +2,10 @@
 <html>
   <head>
     <link rel = "stylesheet" type = "text/css" href ="cssPages/index.css">
+     <link rel = "stylesheet" type = "text/css" href ="cssPages/gallerySlide.css">
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-
+<!--     <link rel = "stylesheet" type = "text/css" href ="cssPages/gallerySlide.css">
+ -->
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
@@ -14,13 +16,13 @@
 
 <div class= "container">
 
-<div class="sidenav">
+<!-- <div class="sidenav">
  <a href="#">About Me</a>
  <a href="#">Current Class Projects</a>
  <a href="#">Current Projects on my own time</a>
  <a href="#">Past Class Projects</a>
-<!-- <a href="#">Link</a> -->
-</div>
+<a href="#">Link</a> 
+</div> -->
 
 <div class ="projectSections">
 <div class= "name">Claudia Martinez</div>
@@ -35,49 +37,70 @@
 <div class= "titles">Current Classes - Hunter College</div>
 
   <div class ="project1 grid-wrapper"> 
-<div class="box">Web Production<a href = "htmlPages/HunterClasses/WebProduction/index.html"><img src= "images/gifCollection/sombraHack.gif"></a> </div>
-<div class="box">Maya 3D Animation<a href = "htmlPages/HunterClasses/3DIntro/index.html"><img src= "images/gifCollection/sombraHack.gif"></a></div>
-<div class="box">Game Concepts<a href = "https://conceptsingamingfall2021.wordpress.com/"><img src= "images/gifCollection/sombraHack.gif"></a></div>
-</div>
-  <div class ="project1 grid-wrapper"> 
-<div class="box"> Adobe<a href = "htmlPages/HunterClasses/AdobeIntro/index.html"><img src= "images/gifCollection/sombraHack.gif"></a></div>
-<div class="box"> Creative Code<a href = "#"><img src= "images/gifCollection/sombraHack.gif"></a></div>
-<div class="box"> 2D Animate<a href = "#"><img src= "images/gifCollection/sombraHack.gif"></a></div>
 
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/gifCollection/sombraHack.gif" style="width:100%">
+  <div class="text">Caption Text</div>
 </div>
 
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/gifCollection/sombraHack.gif" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
 
-<div class= "titles">Current Projects on my own time</div>
-  <div class ="project1 grid-wrapper"> 
-<div class="box">Unity<a href = "htmlPages/unity/index.html"><img src= "images/gifCollection/sombraHack.gif"></a> </div>
-<div class="box">Java<a href= "htmlPages/java/index.html"><img src= "images/gifCollection/sombraHack.gif"> </a></div>
-<div class="box">Voice Over<a href = "#"><img src= "images/gifCollection/sombraHack.gif"></a></div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/gifCollection/sombraHack.gif" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 
 
-<div class= "titles">Past Projects - from LaGuardia Community College</div>
 
 
-	<div class ="project1 grid-wrapper"> 
+</div>
+
+
+
+
+
+    <div class="box"> Adobe<a href = "htmlPages/HunterClasses/AdobeIntro/index.html">
+      <img src= "images/gifCollection/sombraHack.gif"></a></div>
+
+<div class="box"> 3D/2D Animation<a href = "#"><img src= "images/gifCollection/sombraHack.gif"></a></div>
+
 <div class="box">Final Game, Museum of Memories, Unreal<a href = "htmlPages/LaGuardiaClasses/GameDesign/index.html"><img src= "images/imageUnreal/angelIcon.jpg"></a> </div>
-
-<div class="box">Adobe Projects <a href = "htmlPages/LaGuardiaClasses/AdobeIntro/HUW101.html"><img src= "images/imageAdobe/photoshop/PSgif/wings2-angel_character2.gif"></a></div>
-<div class="box">Android App Development Projects <a href = "htmlPages/LaGuardiaClasses/AppDevelopment/MAC220.html"><img src= "images/mobileGif/game.gif"class = "imageIcon2"></a></div>
-<div class="box">3D Animation <a href = "htmlPages/LaGuardiaClasses/3DBlender/index.html"><img src= "images/blenderImage/gifBlender/ufo.gif"></a> </div>
 </div>
 
-<div class= "titles">Contact: claudiamartinez899@gmail.com, GitHub, LinkedIn, Itch.io </div>
 
-<div class ="project1 grid-wrapper"> 
-	<div class="box"><a href = "https://www.claudia00.github.io"><img src= "images/logos/githubIcon.png"></a> </div>
-<div class="box"> <a href = "https://www.linkedin.com/in/claudia-martinez-66826062/"><img src="images/logos/linkedIn.jpeg"></a></div>
-<div class="box">  <a href = "https://redkairiflames.itch.io/"><img src= "images/logos/itchio.png"></a></div>
-</div>
+
+
+
+
+
+
+<div class= "titles">Contact: claudiamartinez899@gmail.com </div>
+
+
 
 </div>
 </div>
 </section>
 
 </body>
+<script src="jsPages/main.js"></script>
+
 </html>
 
